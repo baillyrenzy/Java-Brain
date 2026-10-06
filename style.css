@@ -24,6 +24,7 @@ nav a:hover,nav a.on{background:var(--panel2);color:var(--sky)}
 .js .page{display:none}.js .page.show{display:block}
 .hero{background:radial-gradient(900px 480px at 78% 30%,#cfe3ff 0,transparent 70%),var(--ink);border-bottom:1px solid var(--line)}
 .hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.hero h1{font-size:clamp(2.2rem,5vw,3.6rem)}
 .hero p.lead{font-size:1.25rem;color:var(--text)}
 .hero img{width:100%;height:auto;filter:drop-shadow(0 20px 36px rgba(21,96,212,.30))}
 .row{display:flex;gap:14px;flex-wrap:wrap;margin-top:22px}
